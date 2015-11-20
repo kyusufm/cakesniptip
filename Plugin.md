@@ -2,7 +2,7 @@ I got 403 error after installing filemanager for tiny mce.
 
 changes your .htaccess from
 
-`<Files ~ "^.*">
+<Files ~ "^.*">
   Deny from all
 </Files>
 
@@ -18,4 +18,4 @@ into
 
 <Files ~ "^index\.php|css|js|php|.*\.png|.*\.jpg|.*\.gif|.*\.woff2|.*\.eot|.*\.svg|.*\.ttf|.*\.woff">
   Allow from all
-</Files>`
+</Files>
